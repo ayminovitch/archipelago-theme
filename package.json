@@ -1,0 +1,52 @@
+{
+  "name": "archipelago-theme",
+  "displayName": "Archipelago Dark",
+  "description": "A calm dark theme of floating islands, inspired by JetBrains' Islands UI and tuned for Python.",
+  "version": "1.0.0",
+  "publisher": "aymenhammami",
+  "author": {
+    "name": "Aymen Hammami",
+    "url": "https://aymen-hammami.com"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#27282C",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/ayminovitch/archipelago-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayminovitch/archipelago-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayminovitch/archipelago-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "dark",
+    "islands",
+    "jetbrains",
+    "pycharm",
+    "python",
+    "archipelago",
+    "modern ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Archipelago Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/archipelago-dark-color-theme.json"
+      }
+    ]
+  }
+}
